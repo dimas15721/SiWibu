@@ -1,0 +1,265 @@
+#home-top-1{
+    background-color: black;
+    padding-bottom: 2%;
+    margin-left: -1%;
+    margin-top: -1%;
+    margin-right: -1%;
+}
+#home-top-2{
+    float: left;
+    padding-left: 10%;
+    padding-top: 1.5%;
+    font-size: 40px;
+    color: white;
+}
+#home-top-3{
+    padding-left: 60%;
+    padding-top: 1%;
+    font-size: 40px;
+    color: white;
+}
+.home-top-menu-1{
+    padding-top: 1%;
+    font-size: x-large;
+    color: white;
+    margin-left: 2%;
+}
+#home-mid{
+    border: solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 25%;
+}
+#home-mid h1, p{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#home-mid  pre{
+    position: absolute;
+    font-size: medium;
+    left: -17px;
+}
+#mid-border-color{
+    background-color: gainsboro;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+#home-foot{
+    background-color:black;
+    margin-left: -1%;
+    margin-bottom: -1%;
+}
+#home-foot-1{
+    font-size: 30px;
+    color: white;
+    padding-top: 1%;
+    text-align: center;
+}
+#home-foot-2{
+    text-align: center;
+    padding-top: 2%;
+}
+#home-foot-3{
+    text-align: center;
+    padding-top: 3%;
+}
+#home-foot-4{
+    font-size: 15px;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+#home-foot-menu-1{
+    /* margin-right: 5%; */
+    font-size: 20px;
+    color: white;
+}
+#home-foot-menu-2{
+    font-size: 20px;
+    color: white;
+}
+#home-foot-menu-3{
+    /* margin-left: 5%; */
+    font-size: 20px;
+    color: white;
+}
+/* #home-foot-menu-4{
+    margin-right: 5%;
+}
+#home-foot-menu-5{
+    margin-left: 5%;
+} */
+
+#konten-form{
+  background-image: url(img/pulau-padar.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  padding-bottom: 2%;
+    margin-left: -1%;
+}
+.formlogin{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -200px;
+    margin-right: -200px;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 220px; 
+}
+
+#form-input{
+    padding-top: 10px;
+    padding-bottom: 18px;
+    left: 50%;
+    bottom: 50%;
+    height: 260px;
+    width: 400px;
+    text-align: center;
+    background-color:rgba(255, 251, 251, 0.664);
+}
+#landing{
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.regist-form{
+    margin-left: 50px;
+}
+#SideBar-1, #SideBar-2{
+    position: absolute;
+    width: 250px;
+    background: gainsboro;
+}
+#SideBar-1{
+    left: -250px;
+    top: 90px;
+    height: 71%;
+    transition: all .5s;
+}
+#SideBar-1 header{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    user-select: none;
+    line-height: 50px;
+}
+#SideBar-1 ul, #SideBar-2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#SideBar-1 ul a, #SideBar-2 ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+#SideBar-1 ul li:hover a, #SideBar-2 ul li:hover a{
+    padding-left: 40px;
+    color: white;
+}
+#check-1, #check-2{
+    display: none;
+}
+#btn-1, #cancel-1, #btn-2{
+    position: absolute;
+    cursor: pointer;
+}
+#btn-1, #btn-2{
+    font-size: 35px;
+    color: black;
+}
+#btn-1{
+    left: 40px;
+    top: 97px;
+    transition: all .5s;
+}
+#cancel-1{
+    z-index: 1111;
+    font-size: 30px;
+    color: black;
+    background-color: gainsboro;
+    padding: 4px 9px;
+    
+}
+#cancel-1{
+    left: -255px;
+    top: 92px;
+    transition: all .5s;
+}
+#title-kategori{
+    position: absolute;
+    left: 130px;
+    top: 104px;
+}
+#check-1:checked~#SideBar-1{
+    left: 0;
+    top: 90px;
+}
+#check-1:checked~label #btn-1{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check-1:checked~label #cancel-1{
+    left: 255px;
+    top: 92px;
+}
+#SideBar-2{
+    right: 0px;
+    top: -255px;px;
+    height: 15.5%;
+}
+#btn-2{
+    right: 50px;
+    top: 97px;
+}
+#check-2:checked~#SideBar-2{
+    right: 38px;
+    top: 152px;
+}
+#check-2:checked~label #btn-2{
+    right: 50px;
+    top: 97px;
+}
+#content-first-grid{
+    margin-top: 5%;
+}
+#content-1, #content-2, #content-3{
+    text-align: center;
+    width: 25%;
+}
+#content-1, #content-2{
+    float: left;
+}
+#content-1{
+    margin-left: 10%;
+}
+#content-2{
+    margin-left: 3%;
+}
+#content-3{
+    margin-left: 66%;
+}
+.content-title{
+    text-decoration: none;
+    color: black;
+}
